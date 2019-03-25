@@ -104,8 +104,8 @@ end
 class Brain < Formula
   desc "Command-line interface to the Yext Brain"
   homepage "https://github.com/robfig/brain"
-  url "https://github.com/robfig/braindb/releases/download/0.1/brain", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  sha256 "9406d9d4e5371f0dd298ec29d8e8aa5d0bf54f4eb5077b3c3cce1b0f42438fea"
+  url "https://github.com/robfig/braindb/releases/download/0.3/brain", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  sha256 "3e56551a0d6701e408979cba7a7ffc4c4325829c487535c5ccd8d7df96406235"
   head "https://github.com/robfig/braindb.git"
 
   def install
