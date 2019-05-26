@@ -109,7 +109,8 @@ class Brain < Formula
   head "https://github.com/robfig/braindb.git"
 
   def install
-    bin.install "brain-darwin_amd64"
+    prefix.install "brain-darwin_amd64" "brain"
+    bin.install "brain"
   end
 
   # Homebrew requires tests.
