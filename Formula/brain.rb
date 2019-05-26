@@ -109,7 +109,7 @@ class Brain < Formula
   head "https://github.com/robfig/braindb.git"
 
   def install
-    prefix.install "brain-darwin_amd64" "brain"
+    prefix.install "brain-darwin_amd64", "brain"
     bin.install "brain"
   end
 
