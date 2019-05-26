@@ -104,12 +104,11 @@ end
 class Brain < Formula
   desc "Command-line interface to the Yext Brain"
   homepage "https://github.com/robfig/brain"
-  url "https://github.com/robfig/braindb/releases/download/0.6/brain-darwin_amd64", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  url "https://github.com/robfig/braindb/releases/download/0.6.0/brain", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
   sha256 "d9f09759bc6dfc69ffdc01dcdfc281cb885dcdc194d5b6f23174c34cd13df2e6"
   head "https://github.com/robfig/braindb.git"
 
   def install
-    prefix.install "brain-darwin_amd64", "brain"
     bin.install "brain"
   end
 
